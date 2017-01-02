@@ -1,0 +1,31 @@
+Problem Statement:
+Predict the amount of insurance claim for Allstate customers.
+
+Questions:
+1) What are the factors to include for determining the amount of insurance claim?
+2) What are the techniques to be followed for predicting the insurance claim amount?
+
+Approach:
+Followed the below framework,
+
+Business understanding:
+
+1) Allstate is a multi billion dollar insurance company. Its goal is to reduce the time or mental energy spent for pushing paper with the insurance agent
+2) Allstate is creating automated methods of predctng incurance claim costs
+
+Data understanding
+
+1) The dataset consists of 188,319 instances, each corresponding to a claim from a customer
+2) The data includes both categorical and numerical variables. It has 116 categorical variables and 14 continuous variables. The target variable is the claim amount
+
+Data Preperation:
+
+1) Factorization
+All the categorical variables were factorized using the built in function in Python pandas library.
+
+Modelling:
+Have implemented Linear regression model to predict the target
+
+Evaluation:
+1) I have used Split validation of 75 and 25 ratio for train and validation datasets
+2) Have used the metric Mean Square Error (MSE) to evaluate the difference of Actual and predicted number of shares
