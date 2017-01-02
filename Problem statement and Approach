@@ -29,3 +29,8 @@ Have implemented Linear regression model to predict the target
 Evaluation:
 1) I have used Split validation of 75 and 25 ratio for train and validation datasets
 2) Have used the metric Mean Square Error (MSE) to evaluate the difference of Actual and predicted number of shares
+
+Learnings:
+1) Leverage python for predictive analytics use cases
+2) Factorization of categorical data into numerical data
+3) Usage of Mean Absolute error for evaluation
